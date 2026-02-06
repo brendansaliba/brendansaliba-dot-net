@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light;
+  --bg: #fbf7f1;
+  --fg: #2b2b2b;
+  --muted: #6f6a63;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Times New Roman", "Times", serif;
+}
+
+.page {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 10vh 6vw;
+  text-align: center;
+}
+
+.card {
+  display: grid;
+  gap: 8px;
+  align-items: center;
+  justify-items: center;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.eyebrow span {
+  font-weight: 700;
+  color: var(--fg);
+  background-color: rgb(221, 221, 221);
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.orb-wrap {
+  margin: 4px 0 0;
+}
+
+.orb-canvas {
+  width: min(480px, 70vw);
+  height: min(480px, 70vw);
+  display: block;
+}
+
+.footer {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
