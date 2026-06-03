@@ -73,3 +73,26 @@ body {
   font-size: 14px;
   color: var(--muted);
 }
+
+.projects-page {
+  min-height: 100%;
+  padding: 10vh 6vw;
+}
+
+.projects-list {
+  width: min(260px, 100%);
+  display: grid;
+  gap: 10px;
+}
+
+.projects-list h1 {
+  margin: 0 0 4px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.projects-list a {
+  width: fit-content;
+  color: inherit;
+  font-size: 14px;
+}
